@@ -13,6 +13,7 @@ The **Collaborative Whiteboard** is a real-time drawing application that enables
 - **Adjustable Brush Size**: Customize brush size to suit your needs.
 - **Responsive Design**: Optimized for various screen sizes.
 
+## Video
 [![Video Demo](./public/images/vid.png)](https://drive.google.com/file/d/1ohHUh9icgxzVUjlQrotn7tqr7aFH_ygp/view?usp=drive_link)
 
 
@@ -31,7 +32,7 @@ To get a local copy up and running, follow these simple steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/collaborative-whiteboard.git
+   git clone https://github.com/yourusername/collabBoard.git
    cd collaborative-whiteboard
    ```
 2. **Local installations**
@@ -41,8 +42,7 @@ To get a local copy up and running, follow these simple steps:
     npm i express
     npm i socket.io
     npm i nodemon -g
-  ```
-3. **Running server**
-  ```bash
-   node index.js
-   ```
+
+3.**Running Server**
+```bash
+npm start
