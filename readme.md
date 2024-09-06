@@ -33,7 +33,7 @@ To get a local copy up and running, follow these simple steps:
 
    ```bash
    git clone https://github.com/yourusername/collabBoard.git
-   cd collaborative-whiteboard
+   cd collabBoard
    ```
 2. **Local installations**
 
