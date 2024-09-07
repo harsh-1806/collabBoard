@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collaborative Whiteboard</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Collaborative Whiteboard</h1>
-  </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Whiteboard</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Whiteboard</h1>
+        </header>
 
-  <section class="toolbar">
-    <label for="color-picker">Choose Color:</label>
-    <input type="color" id="color-picker" value="#000000">
-    
-    <label for="brush-size">Brush Size:</label>
-    <input type="range" id="brush-size" min="1" max="10" value="2">
+        <section class="toolbar">
+            <label for="color-picker">Choose Color:</label>
+            <input type="color" id="color-picker" value="#000000" />
 
-  </section>
+            <label for="brush-size">Brush Size:</label>
+            <input type="range" id="brush-size" min="1" max="10" value="2" />
+        </section>
 
-  <div class="canvas-container">
-    <canvas id="canvas"></canvas>
-  </div>
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <section class="teacherDiv">
+            <div class="teacher-div">
+                t
+                <img
+                    src="images/6-Best-Websites-for-Teachers-to-Create-Online-Teaching-Learning-Materials.jpg"
+                    alt="teacher ka image hai bhai"
+                />
+                ext kkkkk
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2024 Collaborative Works</p>
-  </footer>
+        <footer>
+            <!-- <p>&copy; 2024 Collaborative Works</p> -->
+        </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js" integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="script.js"></script>
-</body>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"
+            integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="script.js"></script>
+    </body>
 </html>
